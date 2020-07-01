@@ -1,0 +1,53 @@
+#votelink {
+	color: #5E5555; /*#28a745;*/
+	display: none;
+}
+
+.btn {
+	border-width: 2px;
+	padding: 2px;
+	width: 130px;
+}
+
+.btn-panel {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;	
+}
+
+.panel {
+	border-color: #5E5555; /*#28a745;*/
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+	margin: 20px auto 0;
+	max-width: 560px;
+	min-width: 300px;
+}
+
+.panel-body {
+	padding: 20px;
+}
+
+.panel-heading {
+	background-color: #5E5555;/*#28a745*/;
+	display: flex;
+	height: 38px;
+	justify-content: center;
+}
+
+.panel-heading > p {
+	color: white;
+	font-weight: 600;
+	font-size: 16pt;
+	margin: auto;
+}
+
+.pgs-panel {
+	display: none;
+}
+
+.progress {
+	margin-top: 10px;
+	height: 20px;
+}

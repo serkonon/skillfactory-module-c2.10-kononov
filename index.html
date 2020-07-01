@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Голосование</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<p class="panel-title">Любимый тип домашнего животного</p>
+		</div>
+		<div class="panel-body">
+			<div class="btn-panel">
+		        <button type="button" class="btn btn-outline-warning j-btn" id="cats">Кошки</button>
+		        <button type="button" class="btn btn-outline-info j-btn" id="dogs">Собаки</button>
+		        <button type="button" class="btn btn-outline-success j-btn" id="parrots">Попугаи</button>
+	        </div>
+			<a href="" id="votelink">Посмотреть результат голосования</a>
+			<div class="pgs-panel">
+				<div class="progress">
+					<div id="pgs-cats" class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+				</div>
+				<div class="progress">
+					<div id="pgs-dogs" class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%"></div>
+				</div>
+				<div class="progress">
+					<div id="pgs-parrots" class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<script src="./js/jquery-3.5.1.js"></script>
+	<script src="./js/script.js"></script>
+</body>
+</html>
